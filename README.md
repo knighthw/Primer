@@ -1,1 +1,1 @@
-https://github.com/knighthw/Primer/blob/master/index.html
+https://github.com/knighthw/Primer/tree/master
