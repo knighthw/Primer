@@ -3,41 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <!--Meta tags SEO-->
+    <meta name="description" content="Curriculum made with only HTML" >
+    <meta name="keywords" content="Curriculum, HTML, Frontend, CSS ">
+    <meta name="author" content="Knighthw">
+    <!--OG-->
+    <meta property="og:title" content="CV with HTML" />
+    <meta property="og:description" content="Image of a resume on a webpage />
+    <meta property="og:image" content="url.example.jpg" />
+    <meta property="og:url" content="https://www.example.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_EN" />
+    <!--FAV ICON-->
+    <link rel="icon" href="https://cdn-icons-png.freepik.com/256/5100/5100114.png?semt=ais_hybrid" type="image/x-icon" />
+    <title>CV in HTML</title>
 </head>
 <body>
     <h1>Knight</h1>
-    <h2>Junior Frontend Developer</h2>
-    <p>calle 123</p>
-    <p>ciudad 123</p>
-    <p>numero 123</p>
-    <p>correo@example.com</p>
-    <h2>Skills</h2>
-    <p>HTML, CSS, JavaScript, Accessibility.........</p>
-    <h2>Education</h2>
-    <p>Escuela name, Location name</p>
-    <p>Month 20 to 20</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, eum.</p>
-    <h2>Experience</h2>
-    <p>Company name, Location</p>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <ul>
-        <li>list 1</li>
-        <li>list 2</li>
-        <li>list 3</li>
-    </ul>
-    <p>Skills: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, neque.</p>
-    <p>Company Name, Location</p>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <ul>
-        <li>List 1</li>
-        <li>List 2</li>
-        <li>List 3</li>
-    </ul>
-    <p>Skills: Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nisi.</p>
-    <h2>
+    <section class="Section1">
+        <h3>Junior Frontend Developer</h3>
+        <div class="Address">
+            <p>calle 123</p>
+            <p>ciudad 123</p>
+            <p>numero 123</p>
+            <p>correo@example.com</p>
+        </div>
+    </section>
+    <section class="Section__skills">
+        <h3>Skills</h3>
+        <p>HTML, CSS, JavaScript, Accessibility.........</p>
+    </section>
+    <section class="Section__Education">
+        <h3>Education</h3>
+        <div class="Education__content">
+            <p>Escuela name, Location name</p>
+            <p>Month 20 to 20</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, eum.</p>
+        </div>
+        
+    </section>
+    
+    <section class="Section__Experience">
+        <h3>Experience</h3>
+        <div class="Experience__content">
+            <h4>Company name, Location</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <ul>
+                <li>list 1</li>
+                <li>list 2</li>
+                <li>list 3</li>
+            </ul>
+            <p>Skills: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, neque.</p>
+            <h4>Company Name, Location</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <ul>
+                li>List 1</li>
+                <li>List 2</li>
+                <li>List 3</li>
+            </ul>
+            <p>Skills: Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nisi.</p>
+        </div>
+        
+    </section>
+    
+    <h3>
         Acroos the internet
-    </h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, sunt!</p>
+    </h3>
+    <a href="https://www.linkedin.com/" target="_blank">Linkedin</a>
+    <a href="https://github.com/" target="_blank">GitHub</a>
+    <a href="https://www.youtube.com" target="_blank">Youtube</a>
+    
 </body>
 </html>
